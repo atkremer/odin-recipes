@@ -1,0 +1,73 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    a {
+        text-decoration:none;
+        color: black;
+        display: block;
+     
+    }
+}
+.recipe-list {
+    li {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.23rem;
+
+    &:hover {
+        cursor: pointer;
+        color: #a1caff ;
+    }
+    }
+}
+.hero {
+    text-align: center;
+    background-color: #a1caff;
+    margin-top: 2em;
+    padding: 2em auto;
+}
+img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px;
+    padding: 5px;
+    
+    
+    }
+.desc {
+    font-style: italic;
+    margin: 0;
+    text-align: left;
+    display: block;
+    background-color: #ffffff;
+}
+h2 {
+    font-size:1.5rem;
+}
+.ingre {
+    margin: 0;
+    text-decoration: none;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    
+    ul {
+        list-style-type: none;
+        margin: 2em;
+        padding: auto;
+      
+    
+
+    li{
+    &:hover {
+        cursor: pointer;
+        color: #a1caff;
+        text-decoration: line-through; ;
+    }  
+}
+        }
+    }
